@@ -1,0 +1,57 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ **
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body {
+  display: flex;
+  display: inline-flex;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+div#logPage {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+div#logIn {
+  width: 50%;
+  float: left;
+}
+
+div#signUp {
+  width: 50%;
+  float: right;
+}
+
+#formLogin, #formSignUp {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+#formLogin #btnSubmit, #formSignUp #btnSubmit {
+  color: #fff;
+  letter-spacing: .5px;
+}
+
+.homepage img{
+  min-width:50px;
+  max-width:100px;
+}
